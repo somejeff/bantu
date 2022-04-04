@@ -70,6 +70,16 @@
                         <Insets top="10.0" />
                      </padding>
                   </ButtonBar>
+                  <ButtonBar layoutX="10.0" layoutY="45.0">
+                     <buttons>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text=".material" />
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" styleClass="material" text="Hello" />
+                        <Button disable="true" layoutX="20.0" layoutY="10.0" mnemonicParsing="false" styleClass="material" text="World" />
+                     </buttons>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </ButtonBar>
                </children>
             </VBox>
          </children>

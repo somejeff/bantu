@@ -33,3 +33,20 @@
     -fx-background-color: #ccc, linear-gradient(#ccc 50%, white 100%);
     -fx-border-color: #aaa;
 }
+
+.material {
+    -fx-text-fill: #fff;
+    -fx-background-color: #26a69a;
+    -fx-font-size: 14;
+    -fx-padding: 11 16 11 16;
+    -fx-effect: dropshadow( gaussian  , rgba(0,0,0,0.14) , 2, 0.0 , 2 , 2 );
+    /*0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);*/
+    
+}
+
+.material:hover {
+    -fx-background-color: #2bbbad;
+    -fx-effect: dropshadow( gaussian  , rgba(0,0,0,0.14) , 3, 0.0 , 3 , 3 );
+    /*0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2)*/
+}
+  
