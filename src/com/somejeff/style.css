@@ -1,0 +1,35 @@
+/* Default class for all buttons */
+.button {
+    /*-fx-font-size: 50*/
+}
+
+.button:hover {}
+
+.button:focused {}
+
+.button:pressed {}
+
+
+
+/* Explicit classnames */
+.glass-grey {
+    -fx-background-color: #ccc, linear-gradient(white 50%, #ccc 100%);
+    -fx-background-radius: 30;
+    -fx-text-fill: black;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 30;
+    -fx-border-width: 2;
+}
+
+.glass-grey:hover {
+    -fx-border-color: #aaa;
+}
+
+.glass-grey:focused {
+    -fx-border-color: #777;
+}
+
+.glass-grey:pressed {
+    -fx-background-color: #ccc, linear-gradient(#ccc 50%, white 100%);
+    -fx-border-color: #aaa;
+}
